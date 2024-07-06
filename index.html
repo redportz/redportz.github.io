@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Zabala's Portfolio</title>
+    <script src="https://kit.fontawesome.com/1ba04f7b66.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/desktop.css">
+    <link rel="stylesheet" href="/css/mobile.css">
+    
+    
+</head>
+<body>
+    <!-- top bar -->
+    <header>
+        
+        <!-- topbar for Desktop -->
+        <div class="desktop-container"  >
+         <div>
+             <div id="Desktop-buttons" >
+                 <a id="homeButton-desktop" onclick="homeSection()">Home</a>
+                 <a id="aboutButton-desktop" onclick="aboutSection()">About</a>
+                 <a id="skillsButton-desktop" onclick="skillsSection()">Skills</a>
+                 <a id="contactButton-desktop" onclick="contactSection()">Contact</a>
+                 <a href="https://www.linkedin.com/in/eric-zabala-3a2683184/" target="_blank">LinkedIn</a>
+                 
+                </div>
+            </div>
+        </div>
+
+        <!-- Topbar for mobile -->
+        <div class="mobile-container" >
+        <div id="mobile-buttons" >
+            <a id="homeButton-mobile" onclick="homeSection()"><i class="fa-solid fa-house"></i></a>
+            <a id="aboutButton-mobile" onclick="aboutSection()"><i class="fa-solid fa-user"></i></a>
+            <a id="skillsButton-mobile" onclick="skillsSection()"><i class="fa-solid fa-brain"></i></a>
+            <a id="contactButton-mobile" onclick="contactSection()"><i class="fa-solid fa-address-book"></i></a>
+            <a href="https://www.linkedin.com/in/eric-zabala-3a2683184/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home page -->
+    <div id="home-page"  style="display: block;">
+        <div class="desktop-container">
+            <div id="front-page-photo">
+                <img src="photos/Profile-Photo.png" alt="Profile-Photo">
+            </div>
+                <div id="front-page-words">
+                    <h1 id="name">Eric Zabala</h1>
+                    <p id="title">Current Title: Student</p>
+                    <p id="quote">“Aspiring Software Developer dedicated to continuous discovery and innovation.”</p>
+                </div>
+            </div>
+            <div class="mobile-container">
+            <div id="front-page-words-mobile">
+                <h1 id="name">Eric Zabala</h1>
+                <p id="title">Current Title: Student</p>
+                <div id="front-page-photo">
+                    <img src="photos/Profile-Photo.png" alt="Profile-Photo">
+                    </div>
+                <p id="quote">“Aspiring Software Developer dedicated to continuous discovery and innovation.”</p>
+            </div>
+        </div>
+        </div>
+
+    <!-- About page -->
+    <div id="about-page"  style="display: none;">
+    <div id="about-content-container">
+        Hello! I'm Eric Zabala, a passionate student dedicated to exploring new avenues in application development. Currently pursuing a Bachelor's Degree in Computer Science at Marshall University, I'm building a strong foundation in programming, software development, and problem-solving. <br>
+        <br>
+        With nearly a decade of diverse experience, my journey began in 2015 with the Army, where I honed leadership and troubleshooting skills on a $13 million radar system. Transitioning to roles at Walmart and Dish Network, I sharpened my customer service, attention to detail, and time management abilities. <br>
+        <br>
+        Outside of academics and work, I find joy in gaming with friends and diving into Old School RuneScape, which fuels my creativity. <br>
+        <br>
+        Thank you for getting to know me better. I'm excited to connect and explore opportunities to contribute to innovative projects. <br>
+        <br>
+        Best regards,<br>
+        Eric Zabala
+        </div>
+    </div>
+    <!-- Skills page -->
+    <div class="skills-container" id="Skills-Page" style="display: none;">
+        <div id="skills-display">
+            <!-- This is where Skill boxes will display -->
+        </div>
+        <div class="projects-container" id="projects-container">
+            <!-- This is where project details will display -->
+        </div>
+        
+    </div>
+
+    <!-- Resume builder page
+    <div id="Resume builder page" style="display: block;">
+        <div id="Skills-list">
+            
+            This is where skills will be dynamically added 
+             
+        </div>
+        <div id="projects-list">
+             This is where projects will be dynamiclly added 
+        </div>
+
+        <button onclick="mastResume()">Master resume</button>
+        <button onclick="customResume()">Custom Resume</button>
+    </div> 
+
+     Resume display page 
+    <div id="Resume display page" style="display: none;"></div> -->
+
+
+
+    <!-- Contact page -->
+    <div id="Contact-page" style="display: none;">
+        
+        <form action="https://formspree.io/f/mnnaqozn" method="POST">
+            <h1 id="contact-me">Contact Me</h1>
+            <input id="input-name" type="text" name="name" placeholder="Name" required><br>
+            <input id="email" type="email" name="email" placeholder="Email@example.com" required><br>
+            <input id="subject" type="text" name="Subject" placeholder="Subject" required><br>
+            <textarea id="message" name="message" placeholder="Message here..." required></textarea><br>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+</form>
+    <div id="media"></div>
+    </div>
+
+    
+    <script src="/js/page-navigation.js"></script>
+    <script src="/js/skills-display.js"></script>
+    
+    
+
+    
+</body>
+</html>

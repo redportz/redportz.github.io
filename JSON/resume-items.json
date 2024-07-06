@@ -1,0 +1,79 @@
+{
+    "education": [
+        {
+            "location": "Marshall University",
+            "degree": "Bachelor of Science Expected December 2025",
+            "GPA": "3.4",
+            "Major": "Computer Science"
+        }
+    ],
+    "skills": [
+        {
+            "skill": "Python, Visual Studios, Pycharm"
+        },
+        {
+            "skill": "Java, IntelliJ IDEA"
+        },
+        {
+            "skill": "Data Structures"
+        },
+        {
+            "skill": "Linux"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Python Hangman Game",
+            "task": "Introductory Programming project",
+            "description": "Programmed a command-line Hangman game in Python as an introductory project to explore fundamental programming concepts. This early work laid the groundwork for subsequent projects in advanced programming language"
+        },
+        {
+            "name": "Java Hangman Game with GUI",
+            "task": "Object-Oriented Programming Project",
+            "description": "Designed and implemented an interactive Hangman game in Java, featuring a custom user interface built with JFrame. Incorporated object-oriented programming principles to ensure a robust and user-friendly gaming experience."
+        },
+        {
+            "name": "Java Bank Application",
+            "task": "Learn Data Structures",
+            "description": "Engineered custom data structures (linked lists, AVL trees, etc.) within a Java bank application to streamline record management, enabling sophisticated sorting, searching, and merging operations via a console interface"
+        },
+        {
+            "name": "Design and built Computers",
+            "task": "Hobby",
+            "description": "Built nine custom computers for personal use and friends using PCPartPicker. Involved in selecting compatible components, assembling hardware, installing operating systems, and optimizing performance for various applications, including gaming and productivity. This experience enhanced my technical skills and attention to detail"
+        }
+    ],
+    "professional experience": [
+        {
+            "title": "Senior Radar Operator",
+            "company": "Army",
+            "time worked": "November 2015 - May 2019",
+            "job duties": [
+                {
+                    "job duty": "Managed a small team promoting moral and physical health while performing daily duties."
+                },
+                {
+                    "job duty": "Facilitated the maintenance of 18 million dollars worth of highly sensitive equipment."
+                },
+                {
+                   "job duty": " Trained soldiers on AN/TPQ-53 R.A.D.A.R. system operations, map reading, vehicle PCMS, and NVG operation" 
+                }
+            ]
+        },
+        {
+            "title": "DNS Technician",
+            "company": "Dish Network",
+            "time worked": "December 2019 - March 2021",
+            "job duties":[
+                {
+                    "job duty": "Installed satellite dishes and troubleshot cable issues for customers during their time of need."
+                },
+                {
+                    "job duty": "Guided customers in selecting the ideal smart home solutions tailored to their needs."
+                }
+            ]
+        }
+    ]
+
+    
+}

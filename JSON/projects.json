@@ -1,0 +1,170 @@
+
+{
+    
+    "projects": [
+        {
+            "name": "Python",
+            "icon": "/photos/python.png",
+            "details": [
+                {
+                    "name": "Hangman Game",
+                    "url": "https://github.com/redportz/PythonHangman",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                },
+                {
+                    "name": "AI-based education system",
+                    "url": "https://www.taco-about-python.xyz/index.html",
+                    "icon": "<i class=\"fa-solid fa-link\"></i>"
+                },
+                {
+                    "name": "AI-based education system",
+                    "url": "https://github.com/redportz/AI-based-education-system",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                }
+            ]
+        },
+        {
+            "name": "Java",
+            "icon": "/photos/java.png",
+            "details": [
+                {
+                    "name": "Hangman Game with GUI",
+                    "url": "https://github.com/redportz/JavaHangmanWithInterface",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                },
+                {
+                    "name": "Hangman Game with GUI",
+                    "url": "https://github.com/redportz/JavaBankApplication",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                }
+            ]
+        },
+        {
+            "name": "HTML",
+            "icon": "/photos/html.png",
+            "details": [
+                {
+                    "name": "AI-based education system",
+                    "url": "https://www.taco-about-python.xyz/",
+                    "icon": "<i class=\"fa-solid fa-link\"></i>"
+                    
+                },
+                {
+                    "name": "AI-based education system",
+                    "url": "https://github.com/redportz/AI-based-education-system",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                },
+                {
+                    "name": "Portfolio",
+                    "url": "https://example.com/portfolio",
+                    "icon": "<i class=\"fa-solid fa-link\"></i>"
+                },
+                {
+                    "name": "Portfolio",
+                    "url": "https://github.com/redportz/portfolio",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                }
+                
+            ]
+        },
+        {
+            "name": "JavaScript",
+            "icon": "/photos/javascript.png",
+            "details": [
+                {
+                    "name": "AI-based education system",
+                    "url": "https://www.taco-about-python.xyz/",
+                    "icon": "<i class=\"fa-solid fa-link\"></i>"
+                    
+                },
+                {
+                    "name": "AI-based education system",
+                    "url": "https://github.com/redportz/AI-based-education-system",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                },
+                {
+                    "name": "Portfolio",
+                    "url": "https://example.com/portfolio",
+                    "icon": "<i class=\"fa-solid fa-link\"></i>"
+                },
+                {
+                    "name": "Portfolio",
+                    "url": "https://github.com/redportz/portfolio",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                }
+            ]
+        },
+        {
+            "name": "CSS",
+            "icon": "/photos/CSS.png",
+            "details": [
+                {
+                    "name": "AI-based education system",
+                    "url": "https://www.taco-about-python.xyz/",
+                    "icon": "<i class=\"fa-solid fa-link\"></i>"
+                    
+                },
+                {
+                    "name": "AI-based education system",
+                    "url": "https://github.com/redportz/AI-based-education-system",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                },
+                {
+                    "name": "Portfolio",
+                    "url": "https://example.com/portfolio",
+                    "icon": "<i class=\"fa-solid fa-link\"></i>"
+                },
+                {
+                    "name": "Portfolio",
+                    "url": "https://github.com/redportz/portfolio",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                }
+            ]
+        },
+        {
+            "name": "Linux",
+            "icon": "/photos/linux.png",
+            "details": [
+                {
+                    "name": "AN-TPQ 53 R.A.D.A.R (work with the system, did NOT assist with development)",
+                    "url": "https://www.lockheedmartin.com/en-us/products/tpq-53.html",
+                    "icon": "<i class=\"fa-solid fa-link\"></i>"
+                },
+                {
+                    "name": "AI-based education system (used on AWS)",
+                    "url": "https://www.taco-about-python.xyz/",
+                    "icon": "<i class=\"fa-solid fa-link\"></i>"
+                }
+            ]
+        },
+        {
+            "name": "API",
+            "icon": "/photos/openAI.png",
+            "details": [
+                {
+                    "name": "AI-based education system (used for grading, chatbot, and section recommendations)",
+                    "url": "https://www.taco-about-python.xyz/",
+                    "icon": "<i class=\"fa-solid fa-link\"></i>"
+                    
+                },
+                {
+                    "name": "AI-based education system",
+                    "url": "https://github.com/redportz/AI-based-education-system",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                }
+            ]
+        },
+        {
+            "name": "Linux",
+            "icon": "/photos/AWS.png",
+            "details": [
+                
+                {
+                    "name": "AI-based education system (used Linux based system)",
+                    "url": "https://www.taco-about-python.xyz/",
+                    "icon": "<i class=\"fa-solid fa-link\"></i>"
+                }
+            ]
+        }
+    ]
+}

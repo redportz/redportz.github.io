@@ -1,0 +1,118 @@
+@media (max-width: 755px){
+    body{
+        background-image: url('/backgrounds/homePage-mobile.jpeg');
+    }
+
+    #home-page, #about-page, #Contact-page{
+        margin-top: 50px;
+        height: calc(100vh - 55px);
+    }
+
+    .home-bg { background-image: url('/backgrounds/homePage-mobile.jpeg'); }
+    .about-bg { background-image: url('/backgrounds/aboutPage-mobile.jpeg'); }
+    .skills-bg { background-image: url('/backgrounds/skillsPage-mobile.jpg'); }
+    .contact-bg { background-image: url('/backgrounds/contactPage-mobile.jpg'); }
+    
+    .desktop-container{
+        display: none;
+    }
+
+    #front-page-words-mobile{
+        display: block;
+        width: 100%;
+        color: white;
+    }
+
+    #skills-display{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        flex-wrap: wrap; /* Allows items to wrap to the next line */
+        justify-content: center; /* Centers items horizontally */
+        gap: 10px; /* Optional: Add some spacing between items */
+    }
+    .project {
+        text-align: center;
+        width: 100px;
+        padding-top: 10px; /* Remove any default margin */
+        background-color: #c04e15d0;
+        padding: 0;
+        box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        border-radius: 15px;
+    }
+    .project h3 {
+        padding: 0;
+        margin: 0;
+    }
+    .project img {
+        padding: 0;
+        margin: 0;
+        padding-top: 10px;
+        height: 75px;
+    }
+    .projects-container{
+        background-color: #c04e15d0;
+        border-radius: 20px;
+    }
+
+    
+    #front-page-photo{
+
+        text-align: center;
+    }
+
+    #home-page img{
+        max-height: 60vh;
+        max-width: 80%;
+        align-content: center;
+    }
+   #home-page h1,#title{
+    margin: 0;
+   }
+
+    #home-page p{
+        font-size: larger;
+    }
+
+    a{
+        color: white;
+    }
+    #mobile-buttons{
+        font-size: 35px;
+        width: 100%;
+        overflow: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1002;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #about-content-container{
+        width: 80vw;
+        height: 70vh;
+        overflow: auto;
+    }
+    #input-name, #email, #subject,#message,#Contact-page button {
+        background-color: rgba(240, 248, 255, 0.651);
+        border-radius: 15px;
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    #input-name, #email, #subject,#Contact-page button {
+        height: 5vh;
+        margin: 5px;
+        width: 70vw;
+        
+
+    }
+    #message{
+        resize: none;
+        width: 70vw;
+        height: 25vh;
+
+    }    
+}
