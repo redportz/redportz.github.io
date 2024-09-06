@@ -3,11 +3,15 @@
         background-image: url('/backgrounds/homePage-mobile.jpeg');
     }
 
-    #home-page, #about-page, #Contact-page{
+    #home-page, #Contact-page{
         margin-top: 50px;
         height: calc(100vh - 55px);
     }
-
+    #about-page{
+    margin-top: 0px;
+    height: calc(-140px + 100vh);
+    }
+    
     .home-bg { background-image: url('/backgrounds/homePage-mobile.jpeg'); }
     .about-bg { background-image: url('/backgrounds/aboutPage-mobile.jpeg'); }
     .skills-bg { background-image: url('/backgrounds/skillsPage-mobile.jpg'); }
