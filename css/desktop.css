@@ -159,9 +159,12 @@ body{
     border-right: 1px solid black; 
 }
 
-/* Add a background color on mouse-over */
-.active ,#Desktop-buttons a:hover {
+.active  {
     background-color: #000;
+}
+#Desktop-buttons a:hover{
+    background-color:#191818;
+    text-decoration: underline;
 }
 
 
