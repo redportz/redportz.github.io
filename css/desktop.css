@@ -115,6 +115,8 @@ body{
     align-items: center;
 }
 
+
+
 #front-page-words h1 {
     margin: 0;
     font-size: 3vw; 
@@ -158,14 +160,11 @@ body{
 }
 
 /* Add a background color on mouse-over */
-#Desktop-buttons a:hover {
+.active ,#Desktop-buttons a:hover {
     background-color: #000;
 }
 
-/* Style the current/active link */
-#Desktop-buttons a.active {
-    background-color: #04AA6D;
-}
+
 
 #front-page-photo {
     width: 50%;
