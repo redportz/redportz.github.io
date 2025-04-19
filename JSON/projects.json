@@ -58,6 +58,11 @@
                     "name": "Portfolio",
                     "url": "https://github.com/redportz/portfolio",
                     "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                },
+                {
+                    "name": "Luigi's Healthcare System",
+                    "url": "https://github.com/redportz/Luigi-Healthcare",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
                 }
                 
             ]
@@ -86,6 +91,11 @@
                     "name": "Portfolio",
                     "url": "https://github.com/redportz/portfolio",
                     "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                },
+                {
+                    "name": "Luigi's Healthcare System",
+                    "url": "https://github.com/redportz/Luigi-Healthcare",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
                 }
             ]
         },
@@ -112,6 +122,11 @@
                 {
                     "name": "Portfolio",
                     "url": "https://github.com/redportz/portfolio",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                },
+                {
+                    "name": "Luigi's Healthcare System",
+                    "url": "https://github.com/redportz/Luigi-Healthcare",
                     "icon": "<i class=\"fa-brands fa-square-github\"></i>"
                 }
             ]
@@ -158,6 +173,30 @@
                     "name": "AI-based education system (used Linux based system)",
                     "url": "https://www.taco-about-python.xyz/",
                     "icon": "<i class=\"fa-solid fa-link\"></i>"
+                }
+            ]
+        },
+        {
+            "name": ".Net",
+            "icon": "/photos/dotnet-logo.jpg",
+            "details": [
+                
+                {
+                    "name": "Luigi's Healthcare System",
+                    "url": "https://github.com/redportz/luigi_healthcare_backened",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                }
+            ]
+        },
+        {
+            "name": "SSMS",
+            "icon": "/photos/SSMS.png",
+            "details": [
+                
+                {
+                    "name": "Luigi's Healthcare System",
+                    "url": "https://github.com/redportz/luigi_healthcare_backened",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
                 }
             ]
         }
