@@ -199,6 +199,18 @@
                     "icon": "<i class=\"fa-brands fa-square-github\"></i>"
                 }
             ]
+        },
+        {
+            "name": "React.js",
+            "icon": "/photos/React.png",
+            "details": [
+                
+                {
+                    "name": "Web Design Studio – Eric Zabala",
+                    "url": "https://genuine-macaron-cdcff0.netlify.app/",
+                    "icon": "<i class=\"fa-solid fa-link\"></i>"
+                }
+            ]
         }
     ]
 }
