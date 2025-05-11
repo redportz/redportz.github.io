@@ -141,13 +141,15 @@ body{
     align-items: center; 
     height: 93vh;
     width: 70vw;
-    align-content: center; 
     justify-content: center; 
-    padding: 20px 0;
 }
 
 #desktop-buttons{
     display: block;
+}
+
+.skills-container{
+    margin-top: 50px;
 }
 
 
