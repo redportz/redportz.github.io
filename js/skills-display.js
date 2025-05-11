@@ -3,15 +3,16 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             const container = document.getElementById('skills-display');
-            data.projects.forEach(project => {
+            data.projects.forEach((project ,index) => {
                 const projectDiv = document.createElement('div');
                 projectDiv.classList.add('project');
                 projectDiv.innerHTML = `
+                    <i id="project-${index}" class="fa-solid fa-xmark"></i>
                     <img src="${project.icon}" alt="${project.name}">
                     <h3>${project.name}</h3>
                 `;
                 projectDiv.addEventListener('click', () => {
-                    toggleDetails(project.name, project.details, projectDiv);
+                    toggleDetails(project.name, project.details, projectDiv, index);
                 });
                 container.appendChild(projectDiv);
             });
@@ -19,15 +20,18 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => console.error('Error loading JSON:', error));
 });
 
-function toggleDetails(projectName, projectDetails, clickedDiv) {
+function toggleDetails(projectName, projectDetails, clickedDiv, projectNumber) {
     const container = document.getElementById('skills-display');
     const detailsContainer = document.getElementById('projects-container');
-
     // Check if the details container is currently displaying the clicked project
     const isCurrentlyDisplayed = detailsContainer.style.display === 'block' && detailsContainer.getAttribute('data-current-project') === projectName;
-
+    let closebtn = document.getElementById('project-' + projectNumber)
+    
     // Hide all skill buttons except the one clicked
     const allProjects = container.querySelectorAll('.project');
+    
+    closebtn.style.display = 'block';
+
     allProjects.forEach(project => {
         if (project !== clickedDiv) {
             project.style.display = 'none';
@@ -38,6 +42,8 @@ function toggleDetails(projectName, projectDetails, clickedDiv) {
 
     if (isCurrentlyDisplayed) {
         // If the same project is clicked again, show all skills and remove the 'onclick' class
+        closebtn.style.display = 'none';
+
         allProjects.forEach(project => {
             project.style.display = 'block';
         });
