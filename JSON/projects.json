@@ -211,6 +211,18 @@
                     "icon": "<i class=\"fa-solid fa-link\"></i>"
                 }
             ]
+        },
+        {
+            "name": "UX/UI",
+            "icon": "/photos/ux-ui-logo.png",
+            "details": [
+                
+                {
+                    "name": "UI-UI design for French City food service",
+                    "url": "https://github.com/redportz/French-City-Food-service-design/tree/main",
+                    "icon": "<i class=\"fa-solid fa-link\"></i>"
+                }
+            ]
         }
     ]
 }
