@@ -220,7 +220,19 @@
                 {
                     "name": "UI-UI design for French City food service",
                     "url": "https://github.com/redportz/French-City-Food-service-design/tree/main",
-                    "icon": "<i class=\"fa-solid fa-link\"></i>"
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                }
+            ]
+        },
+        {
+            "name": "Cloudflare",
+            "icon": "/photos/Cloudflare_Logo.svg.png",
+            "details": [
+                {
+                    "name": "World Savior - Rclone, Windows Batch, Cloudflare R2",
+                    "url": "https://github.com/redportz/world-savior",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+
                 }
             ]
         }
