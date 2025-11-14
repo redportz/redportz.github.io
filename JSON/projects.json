@@ -20,6 +20,11 @@
                     "name": "AI-based education system",
                     "url": "https://github.com/redportz/AI-based-education-system",
                     "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                },
+                {
+                    "name": "EasyLot",
+                    "url": "https://github.com/redportz/EasyLot",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
                 }
             ]
         },
@@ -63,6 +68,11 @@
                     "name": "Luigi's Healthcare System",
                     "url": "https://github.com/redportz/Luigi-Healthcare",
                     "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                },
+                {
+                    "name": "EasyLot",
+                    "url": "https://github.com/redportz/EasyLot",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
                 }
                 
             ]
@@ -96,6 +106,11 @@
                     "name": "Luigi's Healthcare System",
                     "url": "https://github.com/redportz/Luigi-Healthcare",
                     "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                },
+                {
+                    "name": "EasyLot",
+                    "url": "https://github.com/redportz/EasyLot",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
                 }
             ]
         },
@@ -128,6 +143,11 @@
                     "name": "Luigi's Healthcare System",
                     "url": "https://github.com/redportz/Luigi-Healthcare",
                     "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                },
+                {
+                    "name": "EasyLot",
+                    "url": "https://github.com/redportz/EasyLot",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
                 }
             ]
         },
@@ -148,7 +168,7 @@
             ]
         },
         {
-            "name": "API",
+            "name": "OpenAI",
             "icon": "/photos/openAI.png",
             "details": [
                 {
@@ -233,8 +253,25 @@
                     "url": "https://github.com/redportz/world-savior",
                     "icon": "<i class=\"fa-brands fa-square-github\"></i>"
 
+                },
+                {
+                    "name": "EasyLot",
+                    "url": "https://github.com/redportz/EasyLot",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
+                }
+            ]
+        },
+        {
+            "name": "MySQL",
+            "icon": "/photos/mySQL_logo.png",
+            "details": [
+                {
+                    "name": "EasyLot",
+                    "url": "https://github.com/redportz/EasyLot",
+                    "icon": "<i class=\"fa-brands fa-square-github\"></i>"
                 }
             ]
         }
+
     ]
 }
